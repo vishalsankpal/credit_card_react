@@ -1,0 +1,11 @@
+header{
+  border-bottom:2px solid RGBA(230, 70, 22, 1);
+  .logo-container{
+      display: flex;
+      justify-content: center;
+      padding: 9px 0;
+      a{
+          display: inline-flex;
+      }
+  }
+}

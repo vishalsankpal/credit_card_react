@@ -1,0 +1,9 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    @media only screen and (max-width: 767px){
+        row-gap: 10px;
+        justify-content: center;
+    }
+}

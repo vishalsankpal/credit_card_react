@@ -1,0 +1,38 @@
+.card{
+    &.card-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        padding: 0 5px;
+        flex: 0 0 auto;
+        width: 33.33%;
+    
+        @media only screen and (max-width: 767px) {
+            width: 100%;
+        }
+    }
+    
+    &.card-2{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        padding: 0 5px;
+        flex: 0 0 auto;
+        width: 20%;
+        @media only screen and (max-width: 767px){
+            width:50%;
+        }
+    }
+    &.card-6{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        padding: 0 5px;
+        flex: 0 0 auto;
+        width: 50%;
+        @media only screen and (max-width: 767px){
+            width:100%;
+        }
+    }
+    &.reverse{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

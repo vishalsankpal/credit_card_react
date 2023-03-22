@@ -1,0 +1,123 @@
+section.get-credit-card-section{
+    .get-credit-title{
+        font-size: 0.75rem;
+        font-weight: 400;
+        font-style: normal;
+        color: #403F3F;
+        margin-bottom: 4px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .card-4{
+        // -webkit-box-flex: 0;
+        // -ms-flex: 0 0 auto;
+        // padding: 0 5px;
+        // flex: 0 0 auto;
+        // width: 33.33%;
+        // @media only screen and (max-width: 767px){
+        //     width: 100%;
+        // }
+        .card-wrapper{
+            border-radius: 4px;
+            border: 1px solid rgb(215, 215, 215);
+            overflow: hidden;
+            .card-image-container{
+                display: flex;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    -o-object-fit: cover;
+                    object-fit: cover;
+                }
+            }
+            .card-title-container{
+                padding: 20px 30px;
+                background-color: #F8744C;
+                transition: 0.3s ease-in-out background-color;
+                .card-title{
+                    display: flex;
+                    flex-direction: column;
+                    text-decoration: none;
+                    text-align: center;
+                    color: #fff;
+                    transition: 0.3s ease-in-out transform;
+                    .cart-title-text{
+                        font-size: 1.313rem;
+                        font-weight: 400;
+                        margin-bottom: 0.5rem;
+                    }
+                    .card-icon{
+                        i{
+                            font-size: 1.3rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            &:hover{
+                .card-title-container{
+                    background-color: #FFD55C;
+                    transition: 0.3s ease-in-out background-color;
+                    .card-title{
+                        color: #000;
+                        transform: translateY(-5px);
+                        transition: 0.3s ease-in-out transform;
+                        .cart-title-text{
+                            margin-bottom: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .card-6{
+        margin-top: 10px;
+        @media only screen and (max-width:767px){
+            margin-top: 0;
+            &:first-child{
+                margin-top: 10px;
+            }
+        }
+        .cta-wrapper{
+            // padding: 0 5px;
+            // flex: 0 0 auto;
+            // width: 50%;
+            // -webkit-box-flex: 0;
+            // -ms-flex: 0 0 auto;
+            // @media only screen and (max-width: 767px){
+            //     width: 100%;
+            // }
+            button{
+                width: 100%;
+                background-color: #F8744C;
+                transition: 0.3s ease-in-out all;
+                min-height: 70px;
+                padding: 0 20px 0 37px;
+                display: flex;
+                align-items: center;
+                color: #fff;
+                font-size: 21px;
+                font-weight: 400;
+                border: none;
+                cursor: pointer;
+                justify-content: space-between;
+                border-radius: 2px;
+                @media only screen and (max-width: 460px){
+                    padding: 0 20px 0 20px;
+                }
+                .right-icon{
+                    i{
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                    }
+                }
+                &:hover{
+                    background-color: #FFD55C;
+                    color: #000;
+                    transition: 0.3s ease-in-out all;
+                }
+            }
+        }
+    }
+}

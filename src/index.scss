@@ -1,0 +1,35 @@
+// Variables
+
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin and padding
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html{
+  background-color: #e2e2e2;
+}
+body {
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+}
+section{
+  padding: 0 20px;
+}
